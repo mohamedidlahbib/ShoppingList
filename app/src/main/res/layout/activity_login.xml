@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlist"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/sign_in"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/signin"
+        android:background="#30ffffff"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@id/username"
+        android:background="#30ffffff"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:onClick="display"
+        android:text="LOGIN"
+        tools:ignore="OnClick" />
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="394dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="137dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="12dp"
+            android:text="D'ont have an account?"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/Registre"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="REGESTER NOW"
+            android:onClick="displayRegister"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

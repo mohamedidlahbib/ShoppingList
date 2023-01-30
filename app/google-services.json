@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149760772020",
+    "project_id": "shoppinglist-d78f9",
+    "storage_bucket": "shoppinglist-d78f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149760772020:android:1ad007d0a5f5994d2a94e1",
+        "android_client_info": {
+          "package_name": "com.example.mysignupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149760772020-v31odgva9aknjm342usgnmnmtob59g5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJOfdZhESjwaNHP0qfa-Nwxou_vUZPrfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149760772020-v31odgva9aknjm342usgnmnmtob59g5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
